@@ -10,3 +10,4 @@ license = "AGPL-3.0-or-later"
 categories = ["network-programming"]
 
 [dependencies]
+clap = { version = "4", features = ["derive", "cargo", "wrap_help"] }
