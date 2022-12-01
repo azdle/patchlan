@@ -1,0 +1,12 @@
+[package]
+name = "patchlan"
+version = "0.1.0-dev"
+authors = ["azdle <azdle@azdle.net>"]
+edition = "2021"
+description = "A Peer-to-Peer Overlay Mesh Network for Wireguard"
+homepage = "https://patchlan.org"
+repository = "https://github.com/azdle/patchlan"
+license = "AGPL-3.0-or-later"
+categories = ["network-programming"]
+
+[dependencies]
