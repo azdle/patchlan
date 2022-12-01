@@ -24,5 +24,9 @@ struct Args {
 
 fn main() {
     let _args = Args::parse();
+
+    tracing_subscriber::fmt::init();
+    tracing::info!("Starting...");
+
     println!("1 + 1 = {}", add(1, 1));
 }
